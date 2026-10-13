@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gigi Susu Bali - Artisanal Coffee & Pastry</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#FAF6F0] text-[#3D2C2E]">
+
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-50 bg-[#FAF6F0]/95 backdrop-blur-md shadow-sm border-b border-[#E8D8C8]">
+    <nav class="mx-auto max-w-6xl px-6 py-4">
+      <div class="flex items-center justify-between">
+        <!-- Logo / Nama Brand -->
+        <a href="#beranda" class="text-2xl font-black tracking-tight text-[#422517]">
+          Gigi Susu <span class="text-[#B85C38] font-light text-lg italic">Bali</span>
+        </a>
+
+        <!-- Menu Desktop -->
+        <ul class="hidden md:flex items-center gap-8 font-medium text-[#5C3D2E]">
+          <li><a href="#beranda" class="hover:text-[#B85C38] transition-colors">Beranda</a></li>
+          <li><a href="#keunggulan" class="hover:text-[#B85C38] transition-colors">Fasilitas</a></li>
+          <li><a href="#menu" class="hover:text-[#B85C38] transition-colors">Menu Favorit</a></li>
+          <li><a href="#promo" class="hover:text-[#B85C38] transition-colors">Promo Combo</a></li>
+          <li><a href="#ulasan" class="hover:text-[#B85C38] transition-colors">Ulasan</a></li>
+          <li><a href="#lokasi" class="hover:text-[#B85C38] transition-colors">Lokasi</a></li>
+          <li><a href="#kontak" class="hover:text-[#B85C38] transition-colors">Reservasi</a></li>
+        </ul>
+
+        <!-- Tombol Menu Mobile -->
+        <div class="md:hidden">
+          <details class="group">
+            <summary class="list-none cursor-pointer px-3.5 py-2 rounded-xl bg-[#E8D8C8] text-[#422517] font-bold text-sm flex items-center gap-2 select-none">
+              <span>Menu</span>
+              <span class="transition-transform duration-300 group-open:rotate-180">▼</span>
+            </summary>
+            
+            <ul class="absolute left-0 right-0 top-full mt-2 w-full bg-[#FAF6F0] border-b border-[#E8D8C8] shadow-2xl p-6 flex flex-col gap-4 font-semibold text-[#422517]">
+              <li class="border-b border-[#E8D8C8]/50 pb-2"><a href="#beranda" class="block hover:text-[#B85C38]">Beranda</a></li>
+              <li class="border-b border-[#E8D8C8]/50 pb-2"><a href="#keunggulan" class="block hover:text-[#B85C38]">Fasilitas Utama</a></li>
+              <li class="border-b border-[#E8D8C8]/50 pb-2"><a href="#menu" class="block hover:text-[#B85C38]">Menu Favorit</a></li>
+              <li class="border-b border-[#E8D8C8]/50 pb-2"><a href="#promo" class="block hover:text-[#B85C38]">Promo Special</a></li>
+              <li class="border-b border-[#E8D8C8]/50 pb-2"><a href="#ulasan" class="block hover:text-[#B85C38]">Ulasan & Rating</a></li>
+              <li class="border-b border-[#E8D8C8]/50 pb-2"><a href="#lokasi" class="block hover:text-[#B85C38]">Lokasi & Jam Buka</a></li>
+              <li class="pb-1"><a href="#kontak" class="block hover:text-[#B85C38]">Reservasi Meja</a></li>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="beranda" class="bg-gradient-to-br from-[#2C1810] via-[#422517] to-[#1A0F0B] text-white py-20 px-6 relative overflow-hidden">
+      <div class="mx-auto grid max-w-6xl items-center gap-10 md:grid-cols-2 relative z-10">
+        <div class="space-y-6">
+          <div class="inline-flex items-center gap-2 rounded-full bg-[#B85C38]/30 px-4 py-1.5 text-xs font-semibold tracking-wider text-[#E8D8C8] border border-[#B85C38]/40">
+            <span class="flex h-2 w-2 relative">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </span>
+            <span class="text-emerald-300 font-bold">BUKA SEKARANG</span>
+            <span>•</span>
+            <span>Canggu, Bali</span>
+          </div>
+          <h1 class="text-4xl font-extrabold leading-tight md:text-5xl lg:text-6xl text-[#FAF6F0]">
+            Kehangatan Kopi & Pastry Segar di Gigi Susu Bali
+          </h1>
+          <p class="text-[#D5C2B1] text-base md:text-lg leading-relaxed">
+            Nikmati sajian kopi pilihan khas Bali, artisan pastry yang dipanggang segar setiap pagi, dan suasana bersantai yang estetik.
+          </p>
+          <div class="pt-2 flex flex-wrap gap-4">
+            <a href="#menu" class="rounded-xl bg-[#B85C38] px-6 py-3 font-bold text-white shadow-lg shadow-black/20 hover:bg-[#A04B28] transition-all hover:scale-105">
+              Jelajahi Menu
+            </a>
+            <a href="#kontak" class="rounded-xl border border-[#E8D8C8]/30 px-6 py-3 font-semibold text-[#E8D8C8] hover:bg-[#422517]/60 transition-all">
+              Reservasi Tempat
+            </a>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="img/hero.png" alt="Interior Cafe Gigi Susu Bali" class="w-full h-[350px] md:h-[420px] object-cover rounded-3xl shadow-2xl border-4 border-[#E8D8C8]/20">
+          
+          <div class="absolute -bottom-6 -left-4 rounded-2xl bg-[#FAF6F0] p-4 shadow-xl border border-[#E8D8C8] hidden sm:block">
+            <p class="text-xs font-bold text-[#B85C38]">FRESHLY BAKED</p>
+            <p class="text-sm font-extrabold text-[#2C1810]">Pastry Segar Setiap Jam 07:00 WITA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HIGHLIGHT STATISTIK & KEUNGGULAN KAFE -->
+    <section id="keunggulan" class="mx-auto max-w-6xl px-6 -mt-10 relative z-20">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 bg-white p-6 rounded-3xl shadow-xl border border-[#E8D8C8] text-center">
+        <div class="p-3">
+          <span class="text-2xl md:text-3xl font-black text-[#B85C38]">100%</span>
+          <p class="text-xs md:text-sm font-semibold text-[#5C3D2E] mt-1">Biji Arabika Bali</p>
+        </div>
+        <div class="p-3 border-l border-[#E8D8C8]">
+          <span class="text-2xl md:text-3xl font-black text-[#B85C38]">Fresh</span>
+          <p class="text-xs md:text-sm font-semibold text-[#5C3D2E] mt-1">Baked Daily</p>
+        </div>
+        <div class="p-3 border-l md:border-l border-[#E8D8C8]">
+          <span class="text-2xl md:text-3xl font-black text-[#B85C38]">100+</span>
+          <p class="text-xs md:text-sm font-semibold text-[#5C3D2E] mt-1">Capacity Seats</p>
+        </div>
+        <div class="p-3 border-l border-[#E8D8C8]">
+          <span class="text-2xl md:text-3xl font-black text-[#B85C38]">Free</span>
+          <p class="text-xs md:text-sm font-semibold text-[#5C3D2E] mt-1">High-Speed Wi-Fi</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GRID & CARD MENU (12 MENU) -->
+    <section id="menu" class="mx-auto max-w-6xl px-6 py-20">
+      <div class="text-center max-w-2xl mx-auto mb-8">
+        <h2 class="text-3xl font-extrabold text-[#2C1810] sm:text-4xl">
+          Menu Rekomendasi
+        </h2>
+        <p class="mt-3 text-[#6E5044]">
+          Racikan istimewa bernuansa hangat yang paling diminati oleh para pengunjung.
+        </p>
+      </div>
+
+      <!-- SEARCH BAR -->
+      <div class="max-w-md mx-auto mb-8">
+        <div class="relative">
+          <input type="text" id="searchInput" onkeyup="searchMenu()" placeholder="🔍 Cari menu favorit (misal: Latte, Toast, Croissant)..." class="w-full rounded-2xl border border-[#D5C2B1] bg-white px-5 py-3.5 text-sm text-[#2C1810] placeholder-[#A89282] focus:border-[#B85C38] focus:outline-none focus:ring-2 focus:ring-[#B85C38]/20 shadow-sm transition-all">
+        </div>
+      </div>
+
+      <!-- TAB FILTER KATEGORI MENU -->
+      <div class="flex flex-wrap items-center justify-center gap-2 mb-12">
+        <button onclick="filterMenu('all', this)" class="btn-filter px-5 py-2 rounded-full bg-[#B85C38] text-white text-xs md:text-sm font-bold shadow-md cursor-pointer transition-all">Semua Menu</button>
+        <button onclick="filterMenu('kopi', this)" class="btn-filter px-5 py-2 rounded-full bg-[#E8D8C8] text-[#422517] hover:bg-[#B85C38] hover:text-white transition-all text-xs md:text-sm font-semibold cursor-pointer">☕ Kopi</button>
+        <button onclick="filterMenu('pastry', this)" class="btn-filter px-5 py-2 rounded-full bg-[#E8D8C8] text-[#422517] hover:bg-[#B85C38] hover:text-white transition-all text-xs md:text-sm font-semibold cursor-pointer">🥐 Pastry</button>
+        <button onclick="filterMenu('brunch', this)" class="btn-filter px-5 py-2 rounded-full bg-[#E8D8C8] text-[#422517] hover:bg-[#B85C38] hover:text-white transition-all text-xs md:text-sm font-semibold cursor-pointer">🥑 Brunch</button>
+        <button onclick="filterMenu('dessert', this)" class="btn-filter px-5 py-2 rounded-full bg-[#E8D8C8] text-[#422517] hover:bg-[#B85C38] hover:text-white transition-all text-xs md:text-sm font-semibold cursor-pointer">🍨 Dessert</button>
+      </div>
+
+      <!-- Grid Responsif Sesuai Modul: grid-cols-1 md:grid-cols-2 lg:grid-cols-3 -->
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        
+        <!-- Card 1 -->
+        <article data-category="kopi" class="card-item group overflow-hidden rounded-2xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="overflow-hidden relative">
+              <img src="img/kartu-1.png" alt="Iced Palm Sugar Latte" class="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-110">
+              <span class="absolute top-3 left-3 rounded-full bg-[#B85C38] px-3 py-1 text-[10px] font-black uppercase text-white shadow-md">BEST SELLER</span>
+              <span class="absolute top-3 right-3 rounded-full bg-[#FAF6F0]/90 px-3 py-1 text-xs font-extrabold text-[#B85C38] backdrop-blur-md">★ 4.9</span>
+            </div>
+            <div class="p-6">
+              <span class="text-xs font-bold tracking-wider text-[#B85C38] uppercase">Signature Coffee</span>
+              <h3 class="card-title mt-1 text-xl font-bold text-[#2C1810]">Gigi Susu Signature Latte</h3>
+              <p class="mt-2 text-sm text-[#5C3D2E] leading-relaxed">Perpaduan espresso Kintamani, susu segar creamy, dan gula aren organik khas Bali.</p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-0 flex items-center justify-between">
+            <span class="text-lg font-bold text-[#422517]">Rp 35.000</span>
+            <button onclick="openModal('Gigi Susu Signature Latte', 35000)" class="rounded-xl bg-[#5C3D2E] px-4 py-2 text-sm font-semibold text-white hover:bg-[#422517] transition-colors cursor-pointer">Detail Sajian</button>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article data-category="pastry" class="card-item group overflow-hidden rounded-2xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="overflow-hidden relative">
+              <img src="img/kartu-2.png" alt="Butter Croissant" class="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-110">
+              <span class="absolute top-3 left-3 rounded-full bg-[#5C3D2E] px-3 py-1 text-[10px] font-black uppercase text-white shadow-md">FRESH BAKED</span>
+              <span class="absolute top-3 right-3 rounded-full bg-[#FAF6F0]/90 px-3 py-1 text-xs font-extrabold text-[#B85C38] backdrop-blur-md">★ 5.0</span>
+            </div>
+            <div class="p-6">
+              <span class="text-xs font-bold tracking-wider text-[#B85C38] uppercase">Fresh Pastry</span>
+              <h3 class="card-title mt-1 text-xl font-bold text-[#2C1810]">Butter Croissant Flaky</h3>
+              <p class="mt-2 text-sm text-[#5C3D2E] leading-relaxed">Pastry mentega Prancis renyah di luar, lembut di dalam. Dipanggang segar setiap pagi.</p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-0 flex items-center justify-between">
+            <span class="text-lg font-bold text-[#422517]">Rp 28.000</span>
+            <button onclick="openModal('Butter Croissant Flaky', 28000)" class="rounded-xl bg-[#5C3D2E] px-4 py-2 text-sm font-semibold text-white hover:bg-[#422517] transition-colors cursor-pointer">Detail Sajian</button>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article data-category="dessert" class="card-item group overflow-hidden rounded-2xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="overflow-hidden relative">
+              <img src="img/kartu-3.png" alt="Matcha Gelato Bowl" class="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-110">
+              <span class="absolute top-3 right-3 rounded-full bg-[#FAF6F0]/90 px-3 py-1 text-xs font-extrabold text-[#B85C38] backdrop-blur-md">★ 4.8</span>
+            </div>
+            <div class="p-6">
+              <span class="text-xs font-bold tracking-wider text-[#B85C38] uppercase">Dessert</span>
+              <h3 class="card-title mt-1 text-xl font-bold text-[#2C1810]">Uji Matcha Ice Gelato</h3>
+              <p class="mt-2 text-sm text-[#5C3D2E] leading-relaxed">Gelato olahan sendiri menggunakan bubuk Uji Matcha autentik bermutu tinggi.</p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-0 flex items-center justify-between">
+            <span class="text-lg font-bold text-[#422517]">Rp 32.000</span>
+            <button onclick="openModal('Uji Matcha Ice Gelato', 32000)" class="rounded-xl bg-[#5C3D2E] px-4 py-2 text-sm font-semibold text-white hover:bg-[#422517] transition-colors cursor-pointer">Detail Sajian</button>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article data-category="brunch" class="card-item group overflow-hidden rounded-2xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="overflow-hidden relative">
+              <img src="img/kartu-4.png" alt="Avocado Toast Supreme" class="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-110">
+              <span class="absolute top-3 left-3 rounded-full bg-[#B85C38] px-3 py-1 text-[10px] font-black uppercase text-white shadow-md">PROMO -15%</span>
+              <span class="absolute top-3 right-3 rounded-full bg-[#FAF6F0]/90 px-3 py-1 text-xs font-extrabold text-[#B85C38] backdrop-blur-md">★ 4.9</span>
+            </div>
+            <div class="p-6">
+              <span class="text-xs font-bold tracking-wider text-[#B85C38] uppercase">Brunch</span>
+              <h3 class="card-title mt-1 text-xl font-bold text-[#2C1810]">Avocado Toast Supreme</h3>
+              <p class="mt-2 text-sm text-[#5C3D2E] leading-relaxed">Roti sourdough panggang dengan alpukat lumat, telur poached egg, dan taburan biji wijen.</p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-0 flex items-center justify-between">
+            <span class="text-lg font-bold text-[#422517]">Rp 42.000</span>
+            <button onclick="openModal('Avocado Toast Supreme', 42000)" class="rounded-xl bg-[#5C3D2E] px-4 py-2 text-sm font-semibold text-white hover:bg-[#422517] transition-colors cursor-pointer">Detail Sajian</button>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article data-category="kopi" class="card-item group overflow-hidden rounded-2xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="overflow-hidden relative">
+              <img src="img/kartu-5.png" alt="Cold Brew Vanilla Foam" class="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-110">
+              <span class="absolute top-3 right-3 rounded-full bg-[#FAF6F0]/90 px-3 py-1 text-xs font-extrabold text-[#B85C38] backdrop-blur-md">★ 4.7</span>
+            </div>
+            <div class="p-6">
+              <span class="text-xs font-bold tracking-wider text-[#B85C38] uppercase">Cold Coffee</span>
+              <h3 class="card-title mt-1 text-xl font-bold text-[#2C1810]">Cold Brew Sweet Foam</h3>
+              <p class="mt-2 text-sm text-[#5C3D2E] leading-relaxed">Kopi ekstraksi dingin selama 12 jam disajikan dengan busa vanila halus di atasnya.</p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-0 flex items-center justify-between">
+            <span class="text-lg font-bold text-[#422517]">Rp 38.000</span>
+            <button onclick="openModal('Cold Brew Sweet Foam', 38000)" class="rounded-xl bg-[#5C3D2E] px-4 py-2 text-sm font-semibold text-white hover:bg-[#422517] transition-colors cursor-pointer">Detail Sajian</button>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article data-category="pastry" class="card-item group overflow-hidden rounded-2xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="overflow-hidden relative">
+              <img src="img/kartu-6.png" alt="Berry Waffle Supreme" class="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-110">
+              <span class="absolute top-3 left-3 rounded-full bg-[#2C1810] px-3 py-1 text-[10px] font-black uppercase text-white shadow-md">NEW</span>
+              <span class="absolute top-3 right-3 rounded-full bg-[#FAF6F0]/90 px-3 py-1 text-xs font-extrabold text-[#B85C38] backdrop-blur-md">★ 4.9</span>
+            </div>
+            <div class="p-6">
+              <span class="text-xs font-bold tracking-wider text-[#B85C38] uppercase">Pastry & Waffle</span>
+              <h3 class="card-title mt-1 text-xl font-bold text-[#2C1810]">Belgian Berry Waffle</h3>
+              <p class="mt-2 text-sm text-[#5C3D2E] leading-relaxed">Waffle Belgia hangat topping buah beri segar, madu organik, dan satu sekop es krim vanila.</p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-0 flex items-center justify-between">
+            <span class="text-lg font-bold text-[#422517]">Rp 36.000</span>
+            <button onclick="openModal('Belgian Berry Waffle', 36000)" class="rounded-xl bg-[#5C3D2E] px-4 py-2 text-sm font-semibold text-white hover:bg-[#422517] transition-colors cursor-pointer">Detail Sajian</button>
+          </div>
+        </article>
+
+        <!-- Card 7 (TAMBAHAN MENU BARU) -->
+        <article data-category="kopi" class="card-item group overflow-hidden rounded-2xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="overflow-hidden relative">
+              <img src="img/kartu-7.png" alt="Caramel Macchiato" class="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-110">
+              <span class="absolute top-3 right-3 rounded-full bg-[#FAF6F0]/90 px-3 py-1 text-xs font-extrabold text-[#B85C38] backdrop-blur-md">★ 4.8</span>
+            </div>
+            <div class="p-6">
+              <span class="text-xs font-bold tracking-wider text-[#B85C38] uppercase">Espresso Based</span>
+              <h3 class="card-title mt-1 text-xl font-bold text-[#2C1810]">Salted Caramel Macchiato</h3>
+              <p class="mt-2 text-sm text-[#5C3D2E] leading-relaxed">Espresso pekat dilapisi susu hangat dan siraman saus karamel gurih manis di atasnya.</p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-0 flex items-center justify-between">
+            <span class="text-lg font-bold text-[#422517]">Rp 37.000</span>
+            <button onclick="openModal('Salted Caramel Macchiato', 37000)" class="rounded-xl bg-[#5C3D2E] px-4 py-2 text-sm font-semibold text-white hover:bg-[#422517] transition-colors cursor-pointer">Detail Sajian</button>
+          </div>
+        </article>
+
+        <!-- Card 8 (TAMBAHAN MENU BARU) -->
+        <article data-category="pastry" class="card-item group overflow-hidden rounded-2xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="overflow-hidden relative">
+              <img src="img/kartu-8.png" alt="Almond Pain au Chocolat" class="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-110">
+              <span class="absolute top-3 left-3 rounded-full bg-[#B85C38] px-3 py-1 text-[10px] font-black uppercase text-white shadow-md">POPULAR</span>
+              <span class="absolute top-3 right-3 rounded-full bg-[#FAF6F0]/90 px-3 py-1 text-xs font-extrabold text-[#B85C38] backdrop-blur-md">★ 5.0</span>
+            </div>
+            <div class="p-6">
+              <span class="text-xs font-bold tracking-wider text-[#B85C38] uppercase">French Pastry</span>
+              <h3 class="card-title mt-1 text-xl font-bold text-[#2C1810]">Almond Pain au Chocolat</h3>
+              <p class="mt-2 text-sm text-[#5C3D2E] leading-relaxed">Roti pastry berlapis isian cokelat Belgia lumer dengan taburan kacang almond renyah.</p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-0 flex items-center justify-between">
+            <span class="text-lg font-bold text-[#422517]">Rp 32.000</span>
+            <button onclick="openModal('Almond Pain au Chocolat', 32000)" class="rounded-xl bg-[#5C3D2E] px-4 py-2 text-sm font-semibold text-white hover:bg-[#422517] transition-colors cursor-pointer">Detail Sajian</button>
+          </div>
+        </article>
+
+        <!-- Card 9 (TAMBAHAN MENU BARU) -->
+        <article data-category="brunch" class="card-item group overflow-hidden rounded-2xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="overflow-hidden relative">
+              <img src="img/kartu-9.png" alt="Eggs Benedict Sourdough" class="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-110">
+              <span class="absolute top-3 right-3 rounded-full bg-[#FAF6F0]/90 px-3 py-1 text-xs font-extrabold text-[#B85C38] backdrop-blur-md">★ 4.9</span>
+            </div>
+            <div class="p-6">
+              <span class="text-xs font-bold tracking-wider text-[#B85C38] uppercase">Savory Brunch</span>
+              <h3 class="card-title mt-1 text-xl font-bold text-[#2C1810]">Eggs Benedict Sourdough</h3>
+              <p class="mt-2 text-sm text-[#5C3D2E] leading-relaxed">Telur setengah matang di atas roti sourdough, daging asap, dan saus Hollandaise gurih.</p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-0 flex items-center justify-between">
+            <span class="text-lg font-bold text-[#422517]">Rp 45.000</span>
+            <button onclick="openModal('Eggs Benedict Sourdough', 45000)" class="rounded-xl bg-[#5C3D2E] px-4 py-2 text-sm font-semibold text-white hover:bg-[#422517] transition-colors cursor-pointer">Detail Sajian</button>
+          </div>
+        </article>
+
+        <!-- Card 10 (TAMBAHAN MENU BARU) -->
+        <article data-category="dessert" class="card-item group overflow-hidden rounded-2xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="overflow-hidden relative">
+              <img src="img/kartu-10.png" alt="Classic Tiramisu Cup" class="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-110">
+              <span class="absolute top-3 left-3 rounded-full bg-[#5C3D2E] px-3 py-1 text-[10px] font-black uppercase text-white shadow-md">CHEF RECOMMEND</span>
+              <span class="absolute top-3 right-3 rounded-full bg-[#FAF6F0]/90 px-3 py-1 text-xs font-extrabold text-[#B85C38] backdrop-blur-md">★ 4.9</span>
+            </div>
+            <div class="p-6">
+              <span class="text-xs font-bold tracking-wider text-[#B85C38] uppercase">Italian Dessert</span>
+              <h3 class="card-title mt-1 text-xl font-bold text-[#2C1810]">Classic Tiramisu Cup</h3>
+              <p class="mt-2 text-sm text-[#5C3D2E] leading-relaxed">Kue busa lembut dengan rendaman espresso Kintamani dan lapisan krim mascarpone autentik.</p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-0 flex items-center justify-between">
+            <span class="text-lg font-bold text-[#422517]">Rp 35.000</span>
+            <button onclick="openModal('Classic Tiramisu Cup', 35000)" class="rounded-xl bg-[#5C3D2E] px-4 py-2 text-sm font-semibold text-white hover:bg-[#422517] transition-colors cursor-pointer">Detail Sajian</button>
+          </div>
+        </article>
+
+        <!-- Card 11 (TAMBAHAN MENU BARU) -->
+        <article data-category="kopi" class="card-item group overflow-hidden rounded-2xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="overflow-hidden relative">
+              <img src="img/kartu-11.png" alt="Matcha Espresso Fusion" class="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-110">
+              <span class="absolute top-3 right-3 rounded-full bg-[#FAF6F0]/90 px-3 py-1 text-xs font-extrabold text-[#B85C38] backdrop-blur-md">★ 4.7</span>
+            </div>
+            <div class="p-6">
+              <span class="text-xs font-bold tracking-wider text-[#B85C38] uppercase">Special Fusion</span>
+              <h3 class="card-title mt-1 text-xl font-bold text-[#2C1810]">Matcha Espresso Fusion</h3>
+              <p class="mt-2 text-sm text-[#5C3D2E] leading-relaxed">Perpaduan dua rasa ikonik: matcha Uji Jepang yang gurih dan espresso kuat khas Bali.</p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-0 flex items-center justify-between">
+            <span class="text-lg font-bold text-[#422517]">Rp 39.000</span>
+            <button onclick="openModal('Matcha Espresso Fusion', 39000)" class="rounded-xl bg-[#5C3D2E] px-4 py-2 text-sm font-semibold text-white hover:bg-[#422517] transition-colors cursor-pointer">Detail Sajian</button>
+          </div>
+        </article>
+
+        <!-- Card 12 (TAMBAHAN MENU BARU) -->
+        <article data-category="pastry" class="card-item group overflow-hidden rounded-2xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="overflow-hidden relative">
+              <img src="img/kartu-12.png" alt="Cinnamon Roll Glazed" class="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-110">
+              <span class="absolute top-3 left-3 rounded-full bg-[#2C1810] px-3 py-1 text-[10px] font-black uppercase text-white shadow-md">FRESH BAKED</span>
+              <span class="absolute top-3 right-3 rounded-full bg-[#FAF6F0]/90 px-3 py-1 text-xs font-extrabold text-[#B85C38] backdrop-blur-md">★ 4.8</span>
+            </div>
+            <div class="p-6">
+              <span class="text-xs font-bold tracking-wider text-[#B85C38] uppercase">Sweet Bakery</span>
+              <h3 class="card-title mt-1 text-xl font-bold text-[#2C1810]">Cinnamon Roll Glazed</h3>
+              <p class="mt-2 text-sm text-[#5C3D2E] leading-relaxed">Roti kayu manis harum yang empuk disiram lelehan gula vanila lembut di atasnya.</p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-0 flex items-center justify-between">
+            <span class="text-lg font-bold text-[#422517]">Rp 26.000</span>
+            <button onclick="openModal('Cinnamon Roll Glazed', 26000)" class="rounded-xl bg-[#5C3D2E] px-4 py-2 text-sm font-semibold text-white hover:bg-[#422517] transition-colors cursor-pointer">Detail Sajian</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PROMO COMBO -->
+    <section id="promo" class="mx-auto max-w-6xl px-6 py-10">
+      <div class="rounded-3xl bg-gradient-to-r from-[#422517] via-[#5C3D2E] to-[#B85C38] text-white p-8 md:p-12 shadow-2xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8">
+        <div class="space-y-4 max-w-lg z-10">
+          <span class="inline-block rounded-full bg-amber-400 text-[#2C1810] px-3.5 py-1 text-xs font-extrabold uppercase">
+            🔥 SPECIAL MORNING COMBO
+          </span>
+          <h3 class="text-3xl font-extrabold md:text-4xl">Morning Booster Bundle</h3>
+          <p class="text-[#E8D8C8] text-sm md:text-base leading-relaxed">
+            Dapatkan 1 Gigi Susu Signature Latte + 1 Butter Croissant segar hanya dengan harga paket spesial setiap jam 07.00 - 10.00 WITA.
+          </p>
+          <div class="flex items-center gap-4 pt-2">
+            <span class="text-3xl font-black text-amber-300">Rp 49.000</span>
+            <span class="text-sm line-through text-[#E8D8C8]/60">Rp 63.000</span>
+          </div>
+        </div>
+        <a href="#kontak" class="z-10 rounded-2xl bg-white text-[#2C1810] px-8 py-4 font-extrabold shadow-xl hover:bg-[#FAF6F0] transition-all hover:scale-105 whitespace-nowrap">
+          Pesan Paket Combo
+        </a>
+      </div>
+    </section>
+
+    <!-- ULASAN -->
+    <section id="ulasan" class="bg-[#E8D8C8]/30 py-20 px-6 border-y border-[#E8D8C8]">
+      <div class="mx-auto max-w-6xl">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <span class="text-xs font-bold tracking-widest text-[#B85C38] uppercase">Customer Moments & Stories</span>
+          <h2 class="text-3xl font-extrabold text-[#2C1810] sm:text-4xl mt-1">
+            Cerita & Potret Pengunjung
+          </h2>
+          <div class="mt-3 flex items-center justify-center gap-2 text-amber-500 font-bold text-lg">
+            <span>★★★★★</span>
+            <span class="text-sm text-[#5C3D2E]">(4.9 dari 500+ Ulasan Pengunjung)</span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Card Potret 1 -->
+          <article class="group overflow-hidden rounded-3xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl flex flex-col justify-between">
+            <div>
+              <div class="overflow-hidden h-[380px] w-full relative">
+                <img src="img/costumer-1.png" alt="Foto Pengunjung Cafe Gigi Susu Bali" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-80"></div>
+                <span class="absolute top-4 left-4 rounded-full bg-[#1A120B]/80 text-amber-400 px-3.5 py-1 text-xs font-extrabold backdrop-blur-md border border-amber-400/30">★ 5.0 • Verified Visit</span>
+                <div class="absolute bottom-4 left-4 right-4 flex items-center gap-3 text-white">
+                  <div class="h-10 w-10 rounded-full bg-[#B85C38] text-white flex items-center justify-center font-bold text-sm shadow-md border border-white/20">SD</div>
+                  <div>
+                    <h4 class="text-sm font-bold text-white drop-shadow-md">Saraswati Dewi</h4>
+                    <p class="text-xs text-[#E8D8C8]">Canggu, Bali • Coffee Lover</p>
+                  </div>
+                </div>
+              </div>
+              <div class="p-6">
+                <p class="text-sm italic text-[#5C3D2E] leading-relaxed">"Sore-sore nongkrong di sini dapet spot foto estetik banget! Gigi Susu Signature Latte-nya juara, manis arennya pas dan nagih!"</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card Potret 2 -->
+          <article class="group overflow-hidden rounded-3xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl flex flex-col justify-between">
+            <div>
+              <div class="overflow-hidden h-[380px] w-full relative">
+                <img src="img/costumer-2.png" alt="Foto Pengunjung Cafe Gigi Susu Bali" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-80"></div>
+                <span class="absolute top-4 left-4 rounded-full bg-[#1A120B]/80 text-amber-400 px-3.5 py-1 text-xs font-extrabold backdrop-blur-md border border-amber-400/30">★ 5.0 • Verified Visit</span>
+                <div class="absolute bottom-4 left-4 right-4 flex items-center gap-3 text-white">
+                  <div class="h-10 w-10 rounded-full bg-[#5C3D2E] text-white flex items-center justify-center font-bold text-sm shadow-md border border-white/20">RP</div>
+                  <div>
+                    <h4 class="text-sm font-bold text-white drop-shadow-md">Rian Pratama</h4>
+                    <p class="text-xs text-[#E8D8C8]">Jakarta Selatan • Pastry Fan</p>
+                  </div>
+                </div>
+              </div>
+              <div class="p-6">
+                <p class="text-sm italic text-[#5C3D2E] leading-relaxed">"Sempetin mampir pas liburan ke Bali. Croissant-nya crispy banget di luar, dipadu kopi hangat pas cuaca lagi adem. Recommended!"</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card Potret 3 -->
+          <article class="group overflow-hidden rounded-3xl bg-white shadow-md border border-[#E8D8C8] transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl flex flex-col justify-between">
+            <div>
+              <div class="overflow-hidden h-[380px] w-full relative">
+                <img src="img/costumer-3.png" alt="Foto Pengunjung Cafe Gigi Susu Bali" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-80"></div>
+                <span class="absolute top-4 left-4 rounded-full bg-[#1A120B]/80 text-amber-400 px-3.5 py-1 text-xs font-extrabold backdrop-blur-md border border-amber-400/30">★ 4.9 • Verified Visit</span>
+                <div class="absolute bottom-4 left-4 right-4 flex items-center gap-3 text-white">
+                  <div class="h-10 w-10 rounded-full bg-[#B85C38] text-white flex items-center justify-center font-bold text-sm shadow-md border border-white/20">AS</div>
+                  <div>
+                    <h4 class="text-sm font-bold text-white drop-shadow-md">Amanda Smith</h4>
+                    <p class="text-xs text-[#E8D8C8]">Sydney, Australia • Nomad</p>
+                  </div>
+                </div>
+              </div>
+              <div class="p-6">
+                <p class="text-sm italic text-[#5C3D2E] leading-relaxed">"My favorite coffee spot in Canggu for working remotely! The vibe is so cozy and their Uji Matcha gelato bowl is authentic."</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- LOKASI & JAM OPERASIONAL -->
+    <section id="lokasi" class="mx-auto max-w-6xl px-6 py-20">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-6">
+          <span class="inline-block rounded-full bg-[#E8D8C8] px-4 py-1 text-xs font-bold text-[#B85C38]">📍 VISIT OUR STORE</span>
+          <h2 class="text-3xl font-extrabold text-[#2C1810] md:text-4xl">Lokasi & Suasana Cafe</h2>
+          <p class="text-[#5C3D2E] leading-relaxed">
+            Nikmati suasana bersantai yang tenang dan estetik di jantung Canggu, Bali. Cocok untuk *work from cafe*, berkumpul bersama kawan, atau sekadar menikmati sore.
+          </p>
+          <div class="space-y-3 pt-2">
+            <div class="flex items-start gap-3">
+              <span class="text-xl">📍</span>
+              <div>
+                <p class="font-bold text-[#2C1810]">Alamat Lengkap</p>
+                <p class="text-sm text-[#6E5044]">Jl. Pantai Batu Bolong No. 45, Canggu, Kuta Utara, Badung, Bali</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-xl">⏰</span>
+              <div>
+                <p class="font-bold text-[#2C1810]">Jam Operasional</p>
+                <p class="text-sm text-[#6E5044]">Senin - Minggu: 07.00 - 22.00 WITA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="overflow-hidden rounded-3xl shadow-xl border border-[#E8D8C8] h-[350px]">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15777.674987829705!2d115.12267595!3d-8.65399585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2388330365773%3A0x5030bfbca733180!2sCanggu%2C%20Kuta%20Utara%2C%20Badung%20Regency%2C%20Bali!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid" class="w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESERVASI -->
+    <section id="kontak" class="mx-auto max-w-3xl px-6 pb-20">
+      <div class="rounded-3xl bg-white p-8 md:p-12 shadow-2xl border border-[#E8D8C8] relative overflow-hidden">
+        <div class="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-[#5C3D2E] via-[#B85C38] to-[#422517]"></div>
+
+        <div class="mb-10 text-center">
+          <span class="inline-block rounded-full bg-[#E8D8C8] px-4 py-1 text-xs font-bold text-[#B85C38] mb-2"> ONLINE BOOKING</span>
+          <h2 class="text-3xl font-extrabold text-[#2C1810] md:text-4xl">Reservasi Meja & Tempat</h2>
+          <p class="mt-2 text-sm text-[#6E5044]">Isi formulir di bawah untuk pemesanan tempat, acara khusus, atau pertanyaan.</p>
+        </div>
+
+        <form class="space-y-6" onsubmit="handleFormSubmit(event)">
+          <div class="grid gap-6 md:grid-cols-2">
+            <div>
+              <label for="nama" class="mb-2 block text-xs font-bold tracking-wider uppercase text-[#422517]"> Nama Lengkap</label>
+              <input id="nama" type="text" placeholder="Contoh: Budi Santoso" required class="w-full rounded-xl border border-[#D5C2B1] bg-[#FAF6F0]/50 px-4 py-3 text-[#2C1810] placeholder-[#A89282] focus:border-[#B85C38] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#B85C38]/20 transition-all">
+            </div>
+            <div>
+              <label for="email" class="mb-2 block text-xs font-bold tracking-wider uppercase text-[#422517]"> Alamat Email</label>
+              <input id="email" type="email" placeholder="nama@email.com" required class="w-full rounded-xl border border-[#D5C2B1] bg-[#FAF6F0]/50 px-4 py-3 text-[#2C1810] placeholder-[#A89282] focus:border-[#B85C38] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#B85C38]/20 transition-all">
+            </div>
+          </div>
+
+          <div>
+            <label for="layanan" class="mb-2 block text-xs font-bold tracking-wider uppercase text-[#422517]"> Kategori Keperluan</label>
+            <select id="layanan" class="w-full rounded-xl border border-[#D5C2B1] bg-[#FAF6F0]/50 px-4 py-3 text-[#2C1810] focus:border-[#B85C38] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#B85C38]/20 transition-all">
+              <option value="reservasi">Reservasi Tempat / Meja Cafe</option>
+              <option value="catering">Pemesanan Event / Live Barista</option>
+              <option value="saran">Kritik, Saran & Utusan Bisnis</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="pesan" class="mb-2 block text-xs font-bold tracking-wider uppercase text-[#422517]"> Pesan / Catatan Tambahan</label>
+            <textarea id="pesan" rows="4" placeholder="Tuliskan tanggal, jam reservasi, dan jumlah tamu..." class="w-full rounded-xl border border-[#D5C2B1] bg-[#FAF6F0]/50 px-4 py-3 text-[#2C1810] placeholder-[#A89282] focus:border-[#B85C38] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#B85C38]/20 transition-all"></textarea>
+          </div>
+
+          <button type="submit" class="w-full rounded-xl bg-gradient-to-r from-[#B85C38] to-[#A04B28] px-6 py-4 font-bold text-white shadow-lg shadow-[#B85C38]/30 hover:shadow-xl hover:scale-[1.01] transition-all active:scale-[0.99] flex items-center justify-center gap-2 cursor-pointer">
+            <span>Kirim Reservasi Sekarang</span>
+            <span>➔</span>
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- TOAST NOTIFIKASI -->
+  <div id="toast" class="hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-[#2C1810] text-[#E8D8C8] px-6 py-3.5 rounded-2xl shadow-2xl border border-[#B85C38] flex items-center gap-3 animate-bounce">
+    <span class="text-xl">✅</span>
+    <span class="text-sm font-semibold">Reservasi Anda berhasil terkirim! Tim kami akan mengonfirmasi via WhatsApp.</span>
+  </div>
+
+  <!-- MODAL DIALOG INTERAKTIF -->
+  <dialog id="modal" class="m-auto w-11/12 max-w-md rounded-2xl bg-[#FAF6F0] p-6 shadow-2xl backdrop:bg-black/70 border border-[#E8D8C8]">
+    <div class="flex items-center justify-between pb-3 border-b border-[#E8D8C8]">
+      <h3 id="modalTitle" class="text-xl font-bold text-[#2C1810]">Detail Sajian</h3>
+      <span class="text-xs font-semibold px-2.5 py-1 bg-[#E8D8C8] text-[#422517] rounded-md">Fresh Daily</span>
+    </div>
+    
+    <div class="mt-4 space-y-4 text-sm text-[#5C3D2E]">
+      <p>Setiap sajian di <strong>Gigi Susu Bali</strong> dibuat dengan bahan-bahan organik berkualitas tinggi yang dipasok harian.</p>
+      
+      <div class="p-4 bg-white rounded-xl border border-[#E8D8C8] space-y-3">
+        <div class="flex items-center justify-between font-bold">
+          <span>Jumlah Porsi:</span>
+          <div class="flex items-center gap-3 bg-[#FAF6F0] rounded-lg px-2 py-1 border border-[#E8D8C8]">
+            <button onclick="updateQty(-1)" class="px-2 font-black text-lg text-[#B85C38] cursor-pointer">-</button>
+            <span id="itemQty" class="font-bold">1</span>
+            <button onclick="updateQty(1)" class="px-2 font-black text-lg text-[#B85C38] cursor-pointer">+</button>
+          </div>
+        </div>
+        <div class="flex items-center justify-between font-extrabold text-base border-t border-[#E8D8C8] pt-2 text-[#422517]">
+          <span>Subtotal Estimasi:</span>
+          <span id="totalPrice" class="text-[#B85C38]">Rp 0</span>
+        </div>
+      </div>
+    </div>
+
+    <form method="dialog" class="mt-6 text-right">
+      <button class="rounded-xl bg-[#E8D8C8] px-5 py-2 text-sm font-semibold text-[#422517] hover:bg-[#D5C2B1] transition-colors cursor-pointer">
+        Tutup Dialog
+      </button>
+    </form>
+  </dialog>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#1A0F0B] text-[#D5C2B1]/80 py-8 px-6 text-center text-sm border-t border-[#2C1810]">
+    <div class="mx-auto max-w-6xl space-y-2">
+      <p class="font-semibold text-[#FAF6F0]">Cafe Gigi Susu Bali &copy; 2026. All rights reserved.</p>
+      <p>Jl. Pantai Batu Bolong No. 45, Canggu, Bali | Buka Setiap Hari (07.00 - 22.00 WITA)</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPT JAVASCRIPT FITUR -->
+  <script>
+    let currentPrice = 0;
+    let qty = 1;
+
+    // 1. Logika Filter Menu
+    function filterMenu(category, clickedBtn) {
+      const cards = document.querySelectorAll('.card-item');
+      const buttons = document.querySelectorAll('.btn-filter');
+
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-[#B85C38]', 'text-white', 'shadow-md');
+        btn.classList.add('bg-[#E8D8C8]', 'text-[#422517]');
+      });
+
+      clickedBtn.classList.remove('bg-[#E8D8C8]', 'text-[#422517]');
+      clickedBtn.classList.add('bg-[#B85C38]', 'text-white', 'shadow-md');
+
+      cards.forEach(card => {
+        if (category === 'all' || card.dataset.category === category) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // 2. Logika Search / Pencarian Menu
+    function searchMenu() {
+      const input = document.getElementById('searchInput').value.toLowerCase();
+      const cards = document.querySelectorAll('.card-item');
+
+      cards.forEach(card => {
+        const title = card.querySelector('.card-title').innerText.toLowerCase();
+        if (title.includes(input)) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // 3. Logika Modal Kalkulator Porsi & Harga
+    function openModal(title, price) {
+      currentPrice = price;
+      qty = 1;
+      document.getElementById('modalTitle').innerText = title;
+      document.getElementById('itemQty').innerText = qty;
+      document.getElementById('totalPrice').innerText = 'Rp ' + (currentPrice * qty).toLocaleString('id-ID');
+      document.getElementById('modal').showModal();
+    }
+
+    function updateQty(change) {
+      if (qty + change >= 1) {
+        qty += change;
+        document.getElementById('itemQty').innerText = qty;
+        document.getElementById('totalPrice').innerText = 'Rp ' + (currentPrice * qty).toLocaleString('id-ID');
+      }
+    }
+
+    // 4. Logika Submit Form
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const toast = document.getElementById('toast');
+      toast.classList.remove('hidden');
+      e.target.reset();
+      
+      setTimeout(() => {
+        toast.classList.add('hidden');
+      }, 4000);
+    }
+  </script>
+
+</body>
+</html>
